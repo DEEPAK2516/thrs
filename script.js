@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         noBtn.style.animation = 'none'; // Stop the animation
         noBtn.innerHTML = "No (Unavailable) 😂";
         message.innerHTML = "Don't try hard, you will be mine! 😂";
-    }, 45000); // Show message after 45 seconds
+    }, 20000); // Show message after 20 seconds
 
     function hideButtons() {
         yesBtn.style.display = 'none';
