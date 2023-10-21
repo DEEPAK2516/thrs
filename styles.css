@@ -21,14 +21,23 @@ button {
 }
 
 .moving {
-    animation: moveNoButton 2s linear infinite;
+    animation: moveNoButton 0.5s linear infinite;
 }
 
 @keyframes moveNoButton {
-    0%, 100% {
-        transform: translateX(0);
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(100px, -100px);
     }
     50% {
-        transform: translateX(100px);
+        transform: translate(200px, 0);
+    }
+    75% {
+        transform: translate(100px, 100px);
+    }
+    100% {
+        transform: translate(0, 0);
     }
 }
